@@ -8,8 +8,8 @@
 source ~/.zplug/init.zsh
 source ~/.zsh/plug.zsh
 
-source ~/.zsh/bps.zsh
 source ~/.zsh/aliases.zsh
+source ~/.zsh/bps.zsh
 source ~/.zsh/path.zsh
 source ~/.zsh/fzf.zsh
 

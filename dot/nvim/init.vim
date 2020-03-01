@@ -28,7 +28,6 @@ call plug#begin('~/.local/share/nvim/plugged')
   "Plug 'justinmk/vim-sneak'
   Plug 'rhysd/clever-f.vim'
   "Plug 'zhaocai/GoldenView.Vim'
-  Plug 'simeji/winresizer'
   Plug 'vimlab/split-term.vim'
   Plug 'kassio/neoterm'
   Plug 'Lenovsky/nuake'
@@ -53,6 +52,7 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
   Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
   Plug 'neoclide/coc-denite'
+  Plug 'voldikss/vim-floaterm'
   " Syntax Highlighting -----------------------------------------------
   Plug 'vim-scripts/bnf.vim'
   Plug 'vim-scripts/ebnf.vim'
@@ -60,6 +60,8 @@ call plug#begin('~/.local/share/nvim/plugged')
   Plug 'janko/vim-test'
   " Ansible -----------------------------------------------
   Plug 'pearofducks/ansible-vim'
+  " Windows/Splits -----------------------------------------------
+  Plug 'simeji/winresizer'
   " Initialize plugin system
 call plug#end()
 source $HOME/.config/nvim/plugins.vim
